@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "webpack",
     "server": "node server.js",
-    "start": "concurrently \"node server.js\" \"webpack -w\" "
+    "start": "concurrently \"node server.js\" \"webpack -w\" ",
+    "webpack-server": "webpack-dev-server"
   },
   "license": "ISC",
   "dependencies": {
